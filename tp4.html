@@ -1,0 +1,175 @@
+<html>
+	<head>
+		<title>abdou</title>
+		
+		<style>
+	body{
+	margin: 0px;
+	padding: 0px;
+	background-color: pink;
+}
+
+
+
+
+nav{
+    font-family: 'Century Gothic', 'Source code pro', Verdana, serif;
+    width: 100%;
+    background-color: #424558;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+.submenu{
+    display: none; 
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px ;
+	color: #FFF;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	
+}
+
+.submenu li{
+	border-bottom: 1px solid #ccc;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-html:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-w3d:hover{
+	border-top: 5px solid RGB(230, 150, 40);
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-css:hover{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-js{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+.menu-contact:hover{
+	border-top: 5px solid #FFF;
+	background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-html .submenu{
+	background-color: RGB(230, 100, 40);
+}
+
+.menu-w3d .submenu{
+	background-color: RGB(230, 150, 40);
+}
+
+.menu-css .submenu{
+	background-color: RGB(000, 160, 240);
+}
+.menu-js .submenu{
+	background-color: RGB(259, 216, 99);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-html .submenu li:hover{
+	background-color: RGB(210, 77, 60);
+}
+.menu-css .submenu li:hover{
+	background-color: RGB(000, 115, 200);
+}
+.menu-js .submenu li:hover{
+	background-color: RGB(200, 165, 70);
+}
+				
+		</style>
+	</head>
+	
+	<body>
+		<nav>
+			<ul >
+				<li CLASS="menu-html"><a href=accueil.html>ACCUEIL
+</a>
+					<ul CLASS="submenu">
+						
+					</ul>
+					
+				</li>
+				
+								<li CLASS="menu-w3d"><a href=w3d.html>W3D</a>
+					<ul CLASS="submenu">
+						<li><a href="#">Introduction</a></li>
+						<li><a href="#">Blender</a></li>
+						<li><a href="#">W3D</a></li>
+						
+					</ul>
+					
+				</li>
+				
+				<li CLASS="menu-css"><a href=cours.html>Les Cours</a>
+					<ul CLASS="submenu">
+						<li><a href="#">cours 1</a></li>
+						<li><a href="#">cours 2</a></li>
+						<li><a href="#">cours 3</a></li>
+						<li><a href="#">Cours 4</a></li>
+					</ul>
+					
+				</li>
+				<li CLASS="menu-js"><a href=tps.html>Les Travaux Pratiques</a>
+					<ul CLASS="submenu">
+							<li><a href="tp1.html">TP 1</a></li>
+						<li><a href="tp2.html">TP 2</a></li>
+						<li><a href="tp3.html">TP 3</a></li>
+						<li><a href="tp4.html">TP 4</a></li>
+					</ul>
+				
+				</li>
+				<li class="menu-contact"><a href=contact.html>contact</a>
+				</li>
+			</ul>
+		</nav>
+		<center>
+		<br>
+	  <h1><b>TP 04</b></h1>
+		</center>
+	</body>
+	
+</html>
